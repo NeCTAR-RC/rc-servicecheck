@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>rest.models</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Package&nbsp;rest ::
+        Module&nbsp;models
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="rest.models-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="rest.models-module.html">Module rest.models</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">django</tt><tt class="py-op">.</tt><tt class="py-name">db</tt> <tt class="py-keyword">import</tt> <tt id="link-0" class="py-name" targets="Module rest.models=rest.models-module.html"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-0', 'models', 'link-0');">models</a></tt> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"> </tt>
+<a name="L3"></a><tt class="py-lineno"> 3</tt>  <tt class="py-line"> </tt>
+<a name="Contact"></a><div id="Contact-def"><a name="L4"></a><tt class="py-lineno"> 4</tt> <a class="py-toggle" href="#" id="Contact-toggle" onclick="return toggle('Contact');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="rest.models.Contact-class.html">Contact</a><tt class="py-op">(</tt><tt class="py-base-class">models</tt><tt class="py-op">.</tt><tt class="py-base-class">Model</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Contact-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="Contact-expanded"><a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line">    <tt class="py-docstring">"""</tt> </tt>
+<a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"><tt class="py-docstring">    A model for containing contact data.</tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line">    <tt id="link-1" class="py-name" targets="Variable rest.models.Contact.id=rest.models.Contact-class.html#id,Variable rest.models.Host.id=rest.models.Host-class.html#id"><a title="rest.models.Contact.id
+rest.models.Host.id" class="py-name" href="#" onclick="return doclink('link-1', 'id', 'link-1');">id</a></tt> <tt class="py-op">=</tt> <tt id="link-2" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-2', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">AutoField</tt><tt class="py-op">(</tt><tt class="py-name">primary_key</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> </tt>
+<a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line">                          <tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line">    <tt id="link-3" class="py-name" targets="Variable rest.models.Contact.username=rest.models.Contact-class.html#username"><a title="rest.models.Contact.username" class="py-name" href="#" onclick="return doclink('link-3', 'username', 'link-3');">username</a></tt> <tt class="py-op">=</tt> <tt id="link-4" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-4', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt>  <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line">    <tt id="link-5" class="py-name" targets="Variable rest.models.Contact.alias=rest.models.Contact-class.html#alias"><a title="rest.models.Contact.alias" class="py-name" href="#" onclick="return doclink('link-5', 'alias', 'link-5');">alias</a></tt> <tt class="py-op">=</tt> <tt id="link-6" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-6', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt>  <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line">    <tt id="link-7" class="py-name" targets="Variable rest.models.Contact.email=rest.models.Contact-class.html#email"><a title="rest.models.Contact.email" class="py-name" href="#" onclick="return doclink('link-7', 'email', 'link-7');">email</a></tt> <tt class="py-op">=</tt> <tt id="link-8" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-8', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
+<a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line">    <tt id="link-9" class="py-name" targets="Variable rest.models.Contact.token=rest.models.Contact-class.html#token,Variable rest.models.Host.token=rest.models.Host-class.html#token"><a title="rest.models.Contact.token
+rest.models.Host.token" class="py-name" href="#" onclick="return doclink('link-9', 'token', 'link-9');">token</a></tt> <tt class="py-op">=</tt> <tt id="link-10" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-10', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line"> </tt>
+<a name="Contact.name"></a><div id="Contact.name-def"><a name="L15"></a><tt class="py-lineno">15</tt> <a class="py-toggle" href="#" id="Contact.name-toggle" onclick="return toggle('Contact.name');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="rest.models.Contact-class.html#name">name</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Contact.name-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Contact.name-expanded"><a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-11" class="py-name"><a title="rest.models.Contact.email" class="py-name" href="#" onclick="return doclink('link-11', 'email', 'link-7');">email</a></tt> <tt class="py-keyword">is</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> </tt>
+<a name="L17"></a><tt class="py-lineno">17</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-12" class="py-name"><a title="rest.models.Contact.username" class="py-name" href="#" onclick="return doclink('link-12', 'username', 'link-3');">username</a></tt> </tt>
+<a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L19"></a><tt class="py-lineno">19</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-13" class="py-name"><a title="rest.models.Contact.username" class="py-name" href="#" onclick="return doclink('link-13', 'username', 'link-3');">username</a></tt> <tt class="py-op">+</tt> <tt class="py-string">'-'</tt> <tt class="py-op">+</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-14" class="py-name"><a title="rest.models.Contact.email" class="py-name" href="#" onclick="return doclink('link-14', 'email', 'link-7');">email</a></tt> </tt>
+</div><a name="L20"></a><tt class="py-lineno">20</tt>  <tt class="py-line"> </tt>
+<a name="Contact.group_name"></a><div id="Contact.group_name-def"><a name="L21"></a><tt class="py-lineno">21</tt> <a class="py-toggle" href="#" id="Contact.group_name-toggle" onclick="return toggle('Contact.group_name');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="rest.models.Contact-class.html#group_name">group_name</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Contact.group_name-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Contact.group_name-expanded"><a name="L22"></a><tt class="py-lineno">22</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-15" class="py-name" targets="Method rest.models.Contact.name()=rest.models.Contact-class.html#name,Variable rest.models.Monitoring.name=rest.models.Monitoring-class.html#name"><a title="rest.models.Contact.name
+rest.models.Monitoring.name" class="py-name" href="#" onclick="return doclink('link-15', 'name', 'link-15');">name</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">'_GROUP'</tt> </tt>
+</div><a name="L23"></a><tt class="py-lineno">23</tt>  <tt class="py-line"> </tt>
+<a name="Contact.__unicode__"></a><div id="Contact.__unicode__-def"><a name="L24"></a><tt class="py-lineno">24</tt> <a class="py-toggle" href="#" id="Contact.__unicode__-toggle" onclick="return toggle('Contact.__unicode__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="rest.models.Contact-class.html#__unicode__">__unicode__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Contact.__unicode__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Contact.__unicode__-expanded"><a name="L25"></a><tt class="py-lineno">25</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-16" class="py-name"><a title="rest.models.Contact.name
+rest.models.Monitoring.name" class="py-name" href="#" onclick="return doclink('link-16', 'name', 'link-15');">name</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+</div></div><a name="L26"></a><tt class="py-lineno">26</tt>  <tt class="py-line"> </tt>
+<a name="L27"></a><tt class="py-lineno">27</tt>  <tt class="py-line"> </tt>
+<a name="Host"></a><div id="Host-def"><a name="L28"></a><tt class="py-lineno">28</tt> <a class="py-toggle" href="#" id="Host-toggle" onclick="return toggle('Host');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="rest.models.Host-class.html">Host</a><tt class="py-op">(</tt><tt class="py-base-class">models</tt><tt class="py-op">.</tt><tt class="py-base-class">Model</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Host-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="Host-expanded"><a name="L29"></a><tt class="py-lineno">29</tt>  <tt class="py-line">    <tt class="py-docstring">"""</tt> </tt>
+<a name="L30"></a><tt class="py-lineno">30</tt>  <tt class="py-line"><tt class="py-docstring">    A model for containing host data.</tt> </tt>
+<a name="L31"></a><tt class="py-lineno">31</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L32"></a><tt class="py-lineno">32</tt>  <tt class="py-line">    <tt id="link-17" class="py-name"><a title="rest.models.Contact.id
+rest.models.Host.id" class="py-name" href="#" onclick="return doclink('link-17', 'id', 'link-1');">id</a></tt> <tt class="py-op">=</tt> <tt id="link-18" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-18', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">AutoField</tt><tt class="py-op">(</tt><tt class="py-name">primary_key</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">,</tt> </tt>
+<a name="L33"></a><tt class="py-lineno">33</tt>  <tt class="py-line">                          <tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L34"></a><tt class="py-lineno">34</tt>  <tt class="py-line">    <tt id="link-19" class="py-name" targets="Variable rest.models.Host.hostIP=rest.models.Host-class.html#hostIP"><a title="rest.models.Host.hostIP" class="py-name" href="#" onclick="return doclink('link-19', 'hostIP', 'link-19');">hostIP</a></tt> <tt class="py-op">=</tt> <tt id="link-20" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-20', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> </tt>
+<a name="L35"></a><tt class="py-lineno">35</tt>  <tt class="py-line">                              <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L36"></a><tt class="py-lineno">36</tt>  <tt class="py-line">    <tt id="link-21" class="py-name"><a title="rest.models.Contact.token
+rest.models.Host.token" class="py-name" href="#" onclick="return doclink('link-21', 'token', 'link-9');">token</a></tt> <tt class="py-op">=</tt> <tt id="link-22" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-22', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L37"></a><tt class="py-lineno">37</tt>  <tt class="py-line"> </tt>
+<a name="Host.__unicode__"></a><div id="Host.__unicode__-def"><a name="L38"></a><tt class="py-lineno">38</tt> <a class="py-toggle" href="#" id="Host.__unicode__-toggle" onclick="return toggle('Host.__unicode__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="rest.models.Host-class.html#__unicode__">__unicode__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Host.__unicode__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Host.__unicode__-expanded"><a name="L39"></a><tt class="py-lineno">39</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-23" class="py-name"><a title="rest.models.Host.hostIP" class="py-name" href="#" onclick="return doclink('link-23', 'hostIP', 'link-19');">hostIP</a></tt><tt class="py-op">)</tt> </tt>
+</div></div><a name="L40"></a><tt class="py-lineno">40</tt>  <tt class="py-line"> </tt>
+<a name="L41"></a><tt class="py-lineno">41</tt>  <tt class="py-line"> </tt>
+<a name="Monitoring"></a><div id="Monitoring-def"><a name="L42"></a><tt class="py-lineno">42</tt> <a class="py-toggle" href="#" id="Monitoring-toggle" onclick="return toggle('Monitoring');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="rest.models.Monitoring-class.html">Monitoring</a><tt class="py-op">(</tt><tt class="py-base-class">models</tt><tt class="py-op">.</tt><tt class="py-base-class">Model</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Monitoring-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="Monitoring-expanded"><a name="L43"></a><tt class="py-lineno">43</tt>  <tt class="py-line">    <tt class="py-docstring">"""</tt> </tt>
+<a name="L44"></a><tt class="py-lineno">44</tt>  <tt class="py-line"><tt class="py-docstring">    A model for containing monitoring data on a given host and contact.</tt> </tt>
+<a name="L45"></a><tt class="py-lineno">45</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L46"></a><tt class="py-lineno">46</tt>  <tt class="py-line">    <tt id="link-24" class="py-name" targets="Variable rest.models.Monitoring.host=rest.models.Monitoring-class.html#host"><a title="rest.models.Monitoring.host" class="py-name" href="#" onclick="return doclink('link-24', 'host', 'link-24');">host</a></tt> <tt class="py-op">=</tt> <tt id="link-25" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-25', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">ForeignKey</tt><tt class="py-op">(</tt><tt id="link-26" class="py-name" targets="Class rest.models.Host=rest.models.Host-class.html"><a title="rest.models.Host" class="py-name" href="#" onclick="return doclink('link-26', 'Host', 'link-26');">Host</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L47"></a><tt class="py-lineno">47</tt>  <tt class="py-line">    <tt id="link-27" class="py-name" targets="Variable rest.models.Monitoring.contact=rest.models.Monitoring-class.html#contact"><a title="rest.models.Monitoring.contact" class="py-name" href="#" onclick="return doclink('link-27', 'contact', 'link-27');">contact</a></tt> <tt class="py-op">=</tt> <tt id="link-28" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-28', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">ForeignKey</tt><tt class="py-op">(</tt><tt id="link-29" class="py-name" targets="Class rest.models.Contact=rest.models.Contact-class.html"><a title="rest.models.Contact" class="py-name" href="#" onclick="return doclink('link-29', 'Contact', 'link-29');">Contact</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L48"></a><tt class="py-lineno">48</tt>  <tt class="py-line"> </tt>
+<a name="L49"></a><tt class="py-lineno">49</tt>  <tt class="py-line">    <tt id="link-30" class="py-name"><a title="rest.models.Contact.name
+rest.models.Monitoring.name" class="py-name" href="#" onclick="return doclink('link-30', 'name', 'link-15');">name</a></tt> <tt class="py-op">=</tt> <tt id="link-31" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-31', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">255</tt><tt class="py-op">)</tt> </tt>
+<a name="L50"></a><tt class="py-lineno">50</tt>  <tt class="py-line"> </tt>
+<a name="L51"></a><tt class="py-lineno">51</tt>  <tt class="py-line">    <tt id="link-32" class="py-name" targets="Variable rest.models.Monitoring.creatorName=rest.models.Monitoring-class.html#creatorName"><a title="rest.models.Monitoring.creatorName" class="py-name" href="#" onclick="return doclink('link-32', 'creatorName', 'link-32');">creatorName</a></tt> <tt class="py-op">=</tt> <tt id="link-33" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-33', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">100</tt><tt class="py-op">)</tt> </tt>
+<a name="L52"></a><tt class="py-lineno">52</tt>  <tt class="py-line">    <tt id="link-34" class="py-name" targets="Variable rest.models.Monitoring.creatorEmail=rest.models.Monitoring-class.html#creatorEmail"><a title="rest.models.Monitoring.creatorEmail" class="py-name" href="#" onclick="return doclink('link-34', 'creatorEmail', 'link-34');">creatorEmail</a></tt> <tt class="py-op">=</tt> <tt id="link-35" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-35', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">CharField</tt><tt class="py-op">(</tt><tt class="py-name">null</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">blank</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">,</tt> <tt class="py-name">max_length</tt><tt class="py-op">=</tt><tt class="py-number">1000</tt><tt class="py-op">)</tt> </tt>
+<a name="L53"></a><tt class="py-lineno">53</tt>  <tt class="py-line"> </tt>
+<a name="L54"></a><tt class="py-lineno">54</tt>  <tt class="py-line">    <tt id="link-36" class="py-name" targets="Variable rest.models.Monitoring.enabled=rest.models.Monitoring-class.html#enabled"><a title="rest.models.Monitoring.enabled" class="py-name" href="#" onclick="return doclink('link-36', 'enabled', 'link-36');">enabled</a></tt> <tt class="py-op">=</tt> <tt id="link-37" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-37', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">True</tt><tt class="py-op">)</tt> </tt>
+<a name="L55"></a><tt class="py-lineno">55</tt>  <tt class="py-line"> </tt>
+<a name="L56"></a><tt class="py-lineno">56</tt>  <tt class="py-line">    <tt id="link-38" class="py-name" targets="Variable rest.models.Monitoring.ssh=rest.models.Monitoring-class.html#ssh"><a title="rest.models.Monitoring.ssh" class="py-name" href="#" onclick="return doclink('link-38', 'ssh', 'link-38');">ssh</a></tt> <tt class="py-op">=</tt> <tt id="link-39" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-39', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L57"></a><tt class="py-lineno">57</tt>  <tt class="py-line">    <tt id="link-40" class="py-name" targets="Variable rest.models.Monitoring.http=rest.models.Monitoring-class.html#http"><a title="rest.models.Monitoring.http" class="py-name" href="#" onclick="return doclink('link-40', 'http', 'link-40');">http</a></tt> <tt class="py-op">=</tt> <tt id="link-41" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-41', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L58"></a><tt class="py-lineno">58</tt>  <tt class="py-line">    <tt id="link-42" class="py-name" targets="Variable rest.models.Monitoring.https=rest.models.Monitoring-class.html#https"><a title="rest.models.Monitoring.https" class="py-name" href="#" onclick="return doclink('link-42', 'https', 'link-42');">https</a></tt> <tt class="py-op">=</tt> <tt id="link-43" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-43', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L59"></a><tt class="py-lineno">59</tt>  <tt class="py-line">    <tt id="link-44" class="py-name" targets="Variable rest.models.Monitoring.smtp=rest.models.Monitoring-class.html#smtp"><a title="rest.models.Monitoring.smtp" class="py-name" href="#" onclick="return doclink('link-44', 'smtp', 'link-44');">smtp</a></tt> <tt class="py-op">=</tt> <tt id="link-45" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-45', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L60"></a><tt class="py-lineno">60</tt>  <tt class="py-line">    <tt id="link-46" class="py-name" targets="Variable rest.models.Monitoring.hddUsage=rest.models.Monitoring-class.html#hddUsage"><a title="rest.models.Monitoring.hddUsage" class="py-name" href="#" onclick="return doclink('link-46', 'hddUsage', 'link-46');">hddUsage</a></tt> <tt class="py-op">=</tt> <tt id="link-47" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-47', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L61"></a><tt class="py-lineno">61</tt>  <tt class="py-line">    <tt id="link-48" class="py-name" targets="Variable rest.models.Monitoring.mysql=rest.models.Monitoring-class.html#mysql"><a title="rest.models.Monitoring.mysql" class="py-name" href="#" onclick="return doclink('link-48', 'mysql', 'link-48');">mysql</a></tt> <tt class="py-op">=</tt> <tt id="link-49" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-49', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L62"></a><tt class="py-lineno">62</tt>  <tt class="py-line">    <tt id="link-50" class="py-name" targets="Variable rest.models.Monitoring.postgres=rest.models.Monitoring-class.html#postgres"><a title="rest.models.Monitoring.postgres" class="py-name" href="#" onclick="return doclink('link-50', 'postgres', 'link-50');">postgres</a></tt> <tt class="py-op">=</tt> <tt id="link-51" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-51', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L63"></a><tt class="py-lineno">63</tt>  <tt class="py-line">    <tt id="link-52" class="py-name" targets="Variable rest.models.Monitoring.cpuLoad=rest.models.Monitoring-class.html#cpuLoad"><a title="rest.models.Monitoring.cpuLoad" class="py-name" href="#" onclick="return doclink('link-52', 'cpuLoad', 'link-52');">cpuLoad</a></tt> <tt class="py-op">=</tt> <tt id="link-53" class="py-name"><a title="rest.models" class="py-name" href="#" onclick="return doclink('link-53', 'models', 'link-0');">models</a></tt><tt class="py-op">.</tt><tt class="py-name">BooleanField</tt><tt class="py-op">(</tt><tt class="py-name">default</tt><tt class="py-op">=</tt><tt class="py-name">False</tt><tt class="py-op">)</tt> </tt>
+<a name="L64"></a><tt class="py-lineno">64</tt>  <tt class="py-line"> </tt>
+<a name="Monitoring.__unicode__"></a><div id="Monitoring.__unicode__-def"><a name="L65"></a><tt class="py-lineno">65</tt> <a class="py-toggle" href="#" id="Monitoring.__unicode__-toggle" onclick="return toggle('Monitoring.__unicode__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="rest.models.Monitoring-class.html#__unicode__">__unicode__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="Monitoring.__unicode__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="Monitoring.__unicode__-expanded"><a name="L66"></a><tt class="py-lineno">66</tt>  <tt class="py-line">        <tt id="link-54" class="py-name"><a title="rest.models.Contact.name
+rest.models.Monitoring.name" class="py-name" href="#" onclick="return doclink('link-54', 'name', 'link-15');">name</a></tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-55" class="py-name"><a title="rest.models.Monitoring.host" class="py-name" href="#" onclick="return doclink('link-55', 'host', 'link-24');">host</a></tt><tt class="py-op">.</tt><tt id="link-56" class="py-name"><a title="rest.models.Host.hostIP" class="py-name" href="#" onclick="return doclink('link-56', 'hostIP', 'link-19');">hostIP</a></tt> </tt>
+<a name="L67"></a><tt class="py-lineno">67</tt>  <tt class="py-line"> </tt>
+<a name="L68"></a><tt class="py-lineno">68</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-57" class="py-name"><a title="rest.models.Monitoring.contact" class="py-name" href="#" onclick="return doclink('link-57', 'contact', 'link-27');">contact</a></tt> <tt class="py-keyword">is</tt> <tt class="py-keyword">not</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> </tt>
+<a name="L69"></a><tt class="py-lineno">69</tt>  <tt class="py-line">            <tt id="link-58" class="py-name"><a title="rest.models.Contact.name
+rest.models.Monitoring.name" class="py-name" href="#" onclick="return doclink('link-58', 'name', 'link-15');">name</a></tt> <tt class="py-op">+=</tt> <tt class="py-string">' '</tt> <tt class="py-op">+</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-59" class="py-name"><a title="rest.models.Monitoring.contact" class="py-name" href="#" onclick="return doclink('link-59', 'contact', 'link-27');">contact</a></tt><tt class="py-op">.</tt><tt id="link-60" class="py-name"><a title="rest.models.Contact.username" class="py-name" href="#" onclick="return doclink('link-60', 'username', 'link-3');">username</a></tt> </tt>
+<a name="L70"></a><tt class="py-lineno">70</tt>  <tt class="py-line"> </tt>
+<a name="L71"></a><tt class="py-lineno">71</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt id="link-61" class="py-name"><a title="rest.models.Contact.name
+rest.models.Monitoring.name" class="py-name" href="#" onclick="return doclink('link-61', 'name', 'link-15');">name</a></tt> </tt>
+</div></div><a name="L72"></a><tt class="py-lineno">72</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Wed May 13 06:34:11 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

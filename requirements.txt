@@ -1,0 +1,4 @@
+Django>=1.6,<1.7
+django_tastypie==0.12.1
+MySQL-python
+mock
