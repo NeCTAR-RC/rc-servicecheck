@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: nectar-monitoring-rest
+Version: 0.3
+Summary: The nectar dashboard django restful service for the Nagios server.
+Home-page: UNKNOWN
+Author: V3 Alliance
+Author-email: as@v3.org.au
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 0 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP

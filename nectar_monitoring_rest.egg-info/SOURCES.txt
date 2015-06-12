@@ -1,0 +1,7 @@
+setup.py
+nectar_monitoring_rest.egg-info/PKG-INFO
+nectar_monitoring_rest.egg-info/SOURCES.txt
+nectar_monitoring_rest.egg-info/dependency_links.txt
+nectar_monitoring_rest.egg-info/not-zip-safe
+nectar_monitoring_rest.egg-info/pbr.json
+nectar_monitoring_rest.egg-info/top_level.txt
