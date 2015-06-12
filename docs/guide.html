@@ -1,0 +1,48 @@
+Monitoring Checks
+-----------------
+
+A number of services running on your instances in the cloud or elsewhere can be scheduled for monitoring. The current state of the services are periodically monitored. They range from basic checks to more advanced checks that be configured with customisable parameters to fit your needs.
+
+
+States
+------
+
+There a four types of states that a service can be in -
+
+OK - The service is running and is within a range that is deemed acceptable
+WARNING - The service is running but certain conditions are above acceptable levels or may be configured incorrectly
+CRITICAL - The service is not running, is not responding or certain conditions have exceeded critical levels
+UNKNOWN - The service state is not yet known. In most situations, the state will be known following the next scheduled check on the service
+
+
+Services
+--------
+
+By default, a check on whether the host is up is always performed when monitoring on the host is enabled. A ping to the host is used to determine whether the host is up and reachable. Thus, ping connections to your host must not be disabled or blocked for this check to return the correct response.
+
+The available services for monitoring are grouped into two different types - basic and advanced. The major difference between the two is that advanced services require a plugin to be running on the host server, and in most cases, require connections to the host server from the Nectar Monitoring servers allowed by your security groups and firewalls. A step by step guide on installing and configuring the host plugin is available on the page when setting up the monitoring. Basic services can be simply enabled and ready to go.
+
+Basic Services
+--------------
+PING, SSH, HTTP, HTTPS, SMTP
+
+Advanced Services
+-----------------
+HDD Usage, MySQL, PostgreSQL, CPU Load
+
+
+Email Alerts
+------------
+
+Emails are used as a way of communication when the state of a service has changed. This includes when a service is in a warning or critical state and when they return to an OK state.
+
+Each monitored server is assigned a recipient email address for which all emailed alerts will be sent to. A common practice is to assign a mailing list as the recipient, allowing many users to be notified of the alerts.
+
+Email recipients can easily unsubscribe from alerts by clicking on the unsubscribe link in the received email.
+
+
+Authorisation
+-------------
+
+Monitored servers are assigned to tenants. All users belonging to that tenant have full access to it's monitored servers.
+
