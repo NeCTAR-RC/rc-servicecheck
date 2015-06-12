@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>api.resources.MonitoringResource</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Package&nbsp;api ::
+        <a href="api.resources-module.html">Module&nbsp;resources</a> ::
+        Class&nbsp;MonitoringResource
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="api.resources.MonitoringResource-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODELDECLARATIVEMETACLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">ModelDeclarativeMetaclass MonitoringResource</h1><p class="nomargin-top"><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource">source&nbsp;code</a></span></p>
+<pre class="base-tree">
+                  object --+                    
+                           |                    
+                ??.NewBase-2 --+                
+                               |                
+     tastypie.resources.Resource --+            
+                                   |            
+tastypie.resources.BaseModelResource --+        
+                                       |        
+                            ??.NewBase-4 --+    
+                                           |    
+            tastypie.resources.ModelResource --+
+                                               |
+                                              <strong class="uidshort">MonitoringResource</strong>
+</pre>
+
+<hr />
+<p>A subclass of ``ModelResource`` that provides CRUD operations on a 
+  monitoring model while maintaining the state of the hosts and services 
+  under monitoring with Nagios.</p>
+
+<!-- ==================== NESTED CLASSES ==================== -->
+<a name="section-NestedClasses"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Nested Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-NestedClasses"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="api.resources.MonitoringResource.Meta-class.html" class="summary-name">Meta</a>
+    </td>
+  </tr>
+</table>
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#prepend_urls" class="summary-sig-name">prepend_urls</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      A hook for adding your own URLs or matching before the default URLs.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.prepend_urls">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#get_object_list" class="summary-sig-name">get_object_list</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">request</span>)</span><br />
+      Returns a list of monitoring objects in JSON format.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.get_object_list">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#alter_list_data_to_serialize" class="summary-sig-name">alter_list_data_to_serialize</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">request</span>,
+        <span class="summary-sig-arg">data</span>)</span><br />
+      Adds extra detail data to the list of monitorings before they get 
+      serialised and returned to the user.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.alter_list_data_to_serialize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#alter_detail_data_to_serialize" class="summary-sig-name">alter_detail_data_to_serialize</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">request</span>,
+        <span class="summary-sig-arg">data</span>)</span><br />
+      Adds extra detail data to the monitoring before it gets serialised 
+      and returned to the user.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.alter_detail_data_to_serialize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#query_nagios" class="summary-sig-name">query_nagios</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">command</span>,
+        <span class="summary-sig-arg">output_format</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">json</code><code class="variable-quote">'</code></span>)</span><br />
+      Executes a query on Nagios using the available socket and returns the
+      results.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.query_nagios">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="query_host_status"></a><span class="summary-sig-name">query_host_status</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">hostIP</span>,
+        <span class="summary-sig-arg">status</span>=<span class="summary-sig-default"><code class="variable-group">{</code><code class="variable-group">}</code></span>)</span><br />
+      Executes a query on Nagios to return the current soft state of a 
+      host.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.query_host_status">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="query_services_status"></a><span class="summary-sig-name">query_services_status</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">hostIP</span>,
+        <span class="summary-sig-arg">contact_name</span>,
+        <span class="summary-sig-arg">status</span>=<span class="summary-sig-default"><code class="variable-group">{</code><code class="variable-group">}</code></span>)</span><br />
+      Executes a query on Nagios to return the current soft state of all 
+      the services for a contact on a given host.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.query_services_status">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#obj_create" class="summary-sig-name">obj_create</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">bundle</span>,
+        <span class="summary-sig-arg">**kwargs</span>)</span><br />
+      Creates a new monitoring using the given host and contact data.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.obj_create">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#obj_update" class="summary-sig-name">obj_update</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">bundle</span>,
+        <span class="summary-sig-arg">**kwargs</span>)</span><br />
+      Updates an existing monitoring using the given host and contact data.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.obj_update">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#obj_delete" class="summary-sig-name">obj_delete</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">bundle</span>,
+        <span class="summary-sig-arg">**kwargs</span>)</span><br />
+      Deletes an existing monitoring.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.obj_delete">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#save_monitoring" class="summary-sig-name">save_monitoring</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">host</span>,
+        <span class="summary-sig-arg">contact</span>,
+        <span class="summary-sig-arg">data</span>)</span><br />
+      Persists a new or existing monitoring using the host, contact and 
+      other data provided.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.save_monitoring">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#unsubscribe" class="summary-sig-name">unsubscribe</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">request</span>,
+        <span class="summary-sig-arg">**kwargs</span>)</span><br />
+      A request method that attempts to unsubscribe a contact's email from 
+      a monitoring.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.unsubscribe">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#_unsubscribe" class="summary-sig-name" onclick="show_private();">_unsubscribe</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">hostToken</span>,
+        <span class="summary-sig-arg">contactToken</span>)</span><br />
+      Unsubscribe a contact's email from a monitoring.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource._unsubscribe">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#send_unsubscribe_email" class="summary-sig-name">send_unsubscribe_email</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">hostIP</span>,
+        <span class="summary-sig-arg">unsubscribedEmail</span>,
+        <span class="summary-sig-arg">creatorEmail</span>)</span><br />
+      Sends an email to the unsubscribed contact and creator of a 
+      monitoring.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.send_unsubscribe_email">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#write_host_configuration" class="summary-sig-name">write_host_configuration</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">host</span>)</span><br />
+      Generates the host configuration file for an enabled host.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.write_host_configuration">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#write_contact_configuration" class="summary-sig-name">write_contact_configuration</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">contact</span>)</span><br />
+      Generates the contact configuration file for a contact.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.write_contact_configuration">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="restart_nagios"></a><span class="summary-sig-name">restart_nagios</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Attempts to restart the Nagios server if there are no Nagios 
+      configuration errors.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.restart_nagios">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#generate_host" class="summary-sig-name">generate_host</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">host</span>,
+        <span class="summary-sig-arg">monitorings</span>)</span><br />
+      Generates a host configuration definition.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_host">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#generate_service" class="summary-sig-name">generate_service</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">host</span>,
+        <span class="summary-sig-arg">monitorings</span>,
+        <span class="summary-sig-arg">description</span>,
+        <span class="summary-sig-arg">command</span>)</span><br />
+      Generates a service configuration definition.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_service">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="api.resources.MonitoringResource-class.html#generate_contact" class="summary-sig-name">generate_contact</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">contact</span>)</span><br />
+      Generates contact and contact group configuration definitions.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_contact">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_host_filename"></a><span class="summary-sig-name">get_host_filename</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">host_id</span>)</span><br />
+      Returns an absolute filename path for a given host.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.get_host_filename">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_contact_filename"></a><span class="summary-sig-name">get_contact_filename</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">contact_id</span>)</span><br />
+      Returns an absolute filename path for a given contact.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.get_contact_filename">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="generate_host_token"></a><span class="summary-sig-name">generate_host_token</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a randomly generated token string.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_host_token">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="generate_contact_token"></a><span class="summary-sig-name">generate_contact_token</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a randomly generated token string.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_contact_token">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.BaseModelResource</code></b>:
+      <code>apply_filters</code>,
+      <code>apply_sorting</code>,
+      <code>build_filters</code>,
+      <code>check_filtering</code>,
+      <code>create_identifier</code>,
+      <code>detail_uri_kwargs</code>,
+      <code>filter_value_to_python</code>,
+      <code>lookup_kwargs_with_identifiers</code>,
+      <code>obj_delete_list</code>,
+      <code>obj_delete_list_for_update</code>,
+      <code>obj_get</code>,
+      <code>obj_get_list</code>,
+      <code>patch_list</code>,
+      <code>rollback</code>,
+      <code>save</code>,
+      <code>save_m2m</code>,
+      <code>save_related</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.Resource</code></b>:
+      <code>__getattr__</code>,
+      <code>__init__</code>,
+      <code>alter_deserialized_detail_data</code>,
+      <code>alter_deserialized_list_data</code>,
+      <code>apply_authorization_limits</code>,
+      <code>authorized_create_detail</code>,
+      <code>authorized_create_list</code>,
+      <code>authorized_delete_detail</code>,
+      <code>authorized_delete_list</code>,
+      <code>authorized_read_detail</code>,
+      <code>authorized_read_list</code>,
+      <code>authorized_update_detail</code>,
+      <code>authorized_update_list</code>,
+      <code>base_urls</code>,
+      <code>build_bundle</code>,
+      <code>build_schema</code>,
+      <code>cached_obj_get</code>,
+      <code>cached_obj_get_list</code>,
+      <code>can_create</code>,
+      <code>can_delete</code>,
+      <code>can_update</code>,
+      <code>create_response</code>,
+      <code>dehydrate</code>,
+      <code>dehydrate_resource_uri</code>,
+      <code>delete_detail</code>,
+      <code>delete_list</code>,
+      <code>deserialize</code>,
+      <code>determine_format</code>,
+      <code>dispatch</code>,
+      <code>dispatch_detail</code>,
+      <code>dispatch_list</code>,
+      <code>error_response</code>,
+      <code>full_dehydrate</code>,
+      <code>full_hydrate</code>,
+      <code>generate_cache_key</code>,
+      <code>get_bundle_detail_data</code>,
+      <code>get_detail</code>,
+      <code>get_list</code>,
+      <code>get_multiple</code>,
+      <code>get_resource_uri</code>,
+      <code>get_schema</code>,
+      <code>get_via_uri</code>,
+      <code>hydrate</code>,
+      <code>hydrate_m2m</code>,
+      <code>is_authenticated</code>,
+      <code>is_valid</code>,
+      <code>log_throttled_access</code>,
+      <code>method_check</code>,
+      <code>override_urls</code>,
+      <code>patch_detail</code>,
+      <code>post_detail</code>,
+      <code>post_list</code>,
+      <code>put_detail</code>,
+      <code>put_list</code>,
+      <code>remove_api_resource_names</code>,
+      <code>resource_uri_kwargs</code>,
+      <code>serialize</code>,
+      <code>throttle_check</code>,
+      <code>unauthorized_result</code>,
+      <code>update_in_place</code>,
+      <code>wrap_view</code>
+      </p>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.Resource</code></b> (private):
+      <code>_build_reverse_url</code>,
+      <code>_handle_500</code>
+      </p></div>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS METHODS ==================== -->
+<a name="section-ClassMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.BaseModelResource</code></b>:
+      <code>api_field_from_django_field</code>,
+      <code>get_fields</code>,
+      <code>should_skip_field</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STATE_OK"></a><span class="summary-name">STATE_OK</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STATE_WARNING"></a><span class="summary-name">STATE_WARNING</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STATE_CRITICAL"></a><span class="summary-name">STATE_CRITICAL</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STATE_UNKNOWN"></a><span class="summary-name">STATE_UNKNOWN</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STATE_UP"></a><span class="summary-name">STATE_UP</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="STATE_DOWN"></a><span class="summary-name">STATE_DOWN</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HAS_NOT_BEEN_CHECKED"></a><span class="summary-name">HAS_NOT_BEEN_CHECKED</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="HAS_BEEN_CHECKED"></a><span class="summary-name">HAS_BEEN_CHECKED</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="api.resources.MonitoringResource-class.html#_meta" class="summary-name" onclick="show_private();">_meta</a> = <code title="&lt;tastypie.resources.ResourceOptions object at 0x10f8e3e10&gt;">&lt;tastypie.resources.ResourceOptions object at 0x10f8e3<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="api.resources.MonitoringResource-class.html#base_fields" class="summary-name">base_fields</a> = <code title="{'cpuLoad': &lt;tastypie.fields.BooleanField object at 0x10f8eb210&gt;,
+ 'creatorEmail': &lt;tastypie.fields.CharField object at 0x10f8e3f90&gt;,
+ 'creatorName': &lt;tastypie.fields.CharField object at 0x10f8e3f50&gt;,
+ 'enabled': &lt;tastypie.fields.BooleanField object at 0x10f8e3fd0&gt;,
+ 'hddUsage': &lt;tastypie.fields.BooleanField object at 0x10f8eb150&gt;,
+ 'http': &lt;tastypie.fields.BooleanField object at 0x10f8eb090&gt;,
+ 'https': &lt;tastypie.fields.BooleanField object at 0x10f8eb0d0&gt;,
+ u'id': &lt;tastypie.fields.IntegerField object at 0x10f8e3ed0&gt;,
+..."><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">cpuLoad</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.BooleanField object<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code><i>unreachable</i>.NewBase</code></b>:
+      <code>declared_fields</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>tastypie.resources.Resource</code></b>:
+      <code>urls</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="prepend_urls"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">prepend_urls</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.prepend_urls">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A hook for adding your own URLs or matching before the default 
+  URLs.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.prepend_urls
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="get_object_list"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">get_object_list</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">request</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.get_object_list">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Returns a list of monitoring objects in JSON format.</p>
+  <p>The list is filtered by a given tenantID.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.get_object_list
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="alter_list_data_to_serialize"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">alter_list_data_to_serialize</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">request</span>,
+        <span class="sig-arg">data</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.alter_list_data_to_serialize">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds extra detail data to the list of monitorings before they get 
+  serialised and returned to the user.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.alter_list_data_to_serialize
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="alter_detail_data_to_serialize"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">alter_detail_data_to_serialize</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">request</span>,
+        <span class="sig-arg">data</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.alter_detail_data_to_serialize">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds extra detail data to the monitoring before it gets serialised and
+  returned to the user.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.alter_detail_data_to_serialize
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="query_nagios"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">query_nagios</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">command</span>,
+        <span class="sig-arg">output_format</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">json</code><code class="variable-quote">'</code></span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.query_nagios">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Executes a query on Nagios using the available socket and returns the 
+  results.</p>
+  <p>Query results can be returned in a specified output format.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="obj_create"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">obj_create</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">bundle</span>,
+        <span class="sig-arg">**kwargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.obj_create">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Creates a new monitoring using the given host and contact data.</p>
+  <p>The Nagios configuration is updated and restarted with the new 
+  monitoring.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.obj_create
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="obj_update"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">obj_update</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">bundle</span>,
+        <span class="sig-arg">**kwargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.obj_update">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Updates an existing monitoring using the given host and contact 
+  data.</p>
+  <p>The Nagios configuration is updated and restarted with the new 
+  monitoring.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.obj_update
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="obj_delete"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">obj_delete</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">bundle</span>,
+        <span class="sig-arg">**kwargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.obj_delete">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Deletes an existing monitoring.</p>
+  <p>The Nagios configuration is updated and restarted with the new 
+  monitoring.</p>
+  <dl class="fields">
+    <dt>Overrides:
+        tastypie.resources.Resource.obj_delete
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="save_monitoring"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">save_monitoring</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">host</span>,
+        <span class="sig-arg">contact</span>,
+        <span class="sig-arg">data</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.save_monitoring">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Persists a new or existing monitoring using the host, contact and 
+  other data provided.</p>
+  <p>The persisted monitoring is returned.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="unsubscribe"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">unsubscribe</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">request</span>,
+        <span class="sig-arg">**kwargs</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.unsubscribe">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>A request method that attempts to unsubscribe a contact's email from a
+  monitoring.</p>
+  <p>This method is just a proxy to another method that will perform the 
+  unsubscribing. It allows the other method to be easily mocked for 
+  testing.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_unsubscribe"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_unsubscribe</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">hostToken</span>,
+        <span class="sig-arg">contactToken</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource._unsubscribe">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Unsubscribe a contact's email from a monitoring.</p>
+  <p>The Nagios configuration is updated and restarted with the 
+  changes.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="send_unsubscribe_email"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">send_unsubscribe_email</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">hostIP</span>,
+        <span class="sig-arg">unsubscribedEmail</span>,
+        <span class="sig-arg">creatorEmail</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.send_unsubscribe_email">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Sends an email to the unsubscribed contact and creator of a 
+  monitoring.</p>
+  <p>The email notifies that the contact's email of the monitoring has been
+  removed.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="write_host_configuration"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">write_host_configuration</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">host</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.write_host_configuration">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generates the host configuration file for an enabled host. The file 
+  contains the host and service Nagios definitions.</p>
+  <p>If no enabled monitorings are assigned to the host, any previous 
+  configurations for the host are deleted.</p>
+  <p>If no monitorings are assigned to the host, the host model is 
+  deleted.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="write_contact_configuration"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">write_contact_configuration</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">contact</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.write_contact_configuration">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generates the contact configuration file for a contact. The file 
+  contains the contact and contact group Nagios definitions.</p>
+  <p>If no monitorings are assigned to the contact, the contact model is 
+  deleted and any previous configurations for the contact are deleted.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="generate_host"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">generate_host</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">host</span>,
+        <span class="sig-arg">monitorings</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_host">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generates a host configuration definition.</p>
+  <p>The definition is returned as a string.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="generate_service"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">generate_service</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">host</span>,
+        <span class="sig-arg">monitorings</span>,
+        <span class="sig-arg">description</span>,
+        <span class="sig-arg">command</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_service">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generates a service configuration definition.</p>
+  <p>The definition is returned as a string.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="generate_contact"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">generate_contact</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">contact</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="api.resources-pysrc.html#MonitoringResource.generate_contact">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generates contact and contact group configuration definitions.</p>
+  <p>The definitions are returned as a string.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== CLASS VARIABLE DETAILS ==================== -->
+<a name="section-ClassVariableDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variable Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariableDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="_meta"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">_meta</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+&lt;tastypie.resources.ResourceOptions object at 0x10f8e3e10&gt;
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="base_fields"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">base_fields</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">cpuLoad</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.BooleanField object at 0x10f8eb210&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">creatorEmail</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.CharField object at 0x10f8e3f90&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">creatorName</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.CharField object at 0x10f8e3f50&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">enabled</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.BooleanField object at 0x10f8e3fd0&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">hddUsage</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.BooleanField object at 0x10f8eb150&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">http</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.BooleanField object at 0x10f8eb090&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">https</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.BooleanField object at 0x10f8eb0d0&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">u'</code><code class="variable-string">id</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;tastypie.fields.IntegerField object at 0x10f8e3ed0&gt;<code class="variable-op">,</code>
+<code class="variable-ellipsis">...</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Wed May 13 06:34:11 2015
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
