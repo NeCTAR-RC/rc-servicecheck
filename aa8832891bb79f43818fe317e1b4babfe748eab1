@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a245df4_70b486f2",
+        "filename": "tox.ini",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-29T23:23:03Z",
+      "side": 1,
+      "message": "Should be:\n\ndeps \u003d -r{toxinidir}/requirements.txt\n\nThis is why it\u0027s failing",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "aa8832891bb79f43818fe317e1b4babfe748eab1",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
