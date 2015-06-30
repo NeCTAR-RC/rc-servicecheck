@@ -1,0 +1,388 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a245df4_d09bb270",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "This commit message doesn\u0027t represent the change",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 79
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_108d4a32",
+        "filename": "README.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 1
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_7082c601",
+        "filename": "docs/Comprehensive_Setup_guide.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "whitspace",
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_5087c20f",
+        "filename": "docs/html/epydoc.css",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_b07b9e28",
+        "filename": "rc-servicecheck/api/resources.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "is this wise? Should it use the json module?",
+      "range": {
+        "startLine": 140,
+        "startChar": 19,
+        "endLine": 140,
+        "endChar": 31
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_90781a2d",
+        "filename": "rc-servicecheck/api/resources.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 704,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "This is a weird way of generating strings. Not very pythonic for token substition.\n\nCan us %(hostname)s etc. then pass a dictionary in to substitute?",
+      "range": {
+        "startLine": 693,
+        "startChar": 0,
+        "endLine": 704,
+        "endChar": 49
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_f0751633",
+        "filename": "rc-servicecheck/api/resources.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 774,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "Can this be put into 1 method, seems duplication for no reason",
+      "range": {
+        "startLine": 764,
+        "startChar": 0,
+        "endLine": 774,
+        "endChar": 31
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_308fae25",
+        "filename": "rc-servicecheck/nectar_monitor_rest/settings.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "are these settings intended to be for running tests or something? What handles setting production settings? Will the debian package handle that?",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 19
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_10942a36",
+        "filename": "rc-servicecheck/nectar_monitor_rest/settings.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "What is this for?",
+      "range": {
+        "startLine": 99,
+        "startChar": 0,
+        "endLine": 99,
+        "endChar": 49
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_7099266e",
+        "filename": "rc-servicecheck/nectar_monitor_rest/wsgi.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "Can we use a relative path here so as to not hard code a dir",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 46
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_509ea257",
+        "filename": "rc-servicecheck/remove_tenant.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "What is the unique identifier? Tenant ID? If so say tenant ID",
+      "range": {
+        "startLine": 15,
+        "startChar": 38,
+        "endLine": 15,
+        "endChar": 71
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_b0a27e98",
+        "filename": "rc-servicecheck/rest/models.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "Doesn\u0027t django do this anyway? Same on other models",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 65
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_909f7a50",
+        "filename": "rc-servicecheck/rest/models.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "IPAddress field?",
+      "range": {
+        "startLine": 34,
+        "startChar": 21,
+        "endLine": 34,
+        "endChar": 30
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_f0acf68e",
+        "filename": "rc-servicecheck/restore_all_configurations.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "Should this be a django management command?",
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_d0a9f27c",
+        "filename": "requirements.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "Maybe only needed in test-requirments.txt See how rcportal does it",
+      "range": {
+        "startLine": 4,
+        "startChar": 2,
+        "endLine": 4,
+        "endChar": 3
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_30b68edd",
+        "filename": "setup.py",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "huh?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 29
+      },
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_10bb8ac5",
+        "filename": "tox.ini",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_70b006de",
+        "filename": "tox.ini",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-06-30T03:38:48Z",
+      "side": 1,
+      "message": "remember to add test-requirements.txt here when you move mock out",
+      "revId": "6cf4cbc07a5fccffac454a3c56edcd02c62ea812",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
