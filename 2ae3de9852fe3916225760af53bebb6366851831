@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a245df4_30304956",
+        "filename": "rc-servicecheck/api/resources.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 666,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-07-08T22:16:36Z",
+      "side": 1,
+      "message": "should this be generic-host?",
+      "range": {
+        "startLine": 666,
+        "startChar": 28,
+        "endLine": 666,
+        "endChar": 40
+      },
+      "revId": "2ae3de9852fe3916225760af53bebb6366851831",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_bc01b53b",
+        "filename": "rc-servicecheck/nectar_monitor_rest/settings.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-07-08T22:16:36Z",
+      "side": 1,
+      "message": "?",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 15
+      },
+      "revId": "2ae3de9852fe3916225760af53bebb6366851831",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_9cfe7137",
+        "filename": "rc-servicecheck/remove_tenant.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-07-08T22:16:36Z",
+      "side": 1,
+      "message": "What is the identifier tenant Id or tenant name? Identifier doesn\u0027t mean much",
+      "range": {
+        "startLine": 15,
+        "startChar": 38,
+        "endLine": 15,
+        "endChar": 56
+      },
+      "revId": "2ae3de9852fe3916225760af53bebb6366851831",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_9035b548",
+        "filename": "setup.py",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-07-08T22:16:36Z",
+      "side": 1,
+      "message": "What is the Licensing on this project?",
+      "range": {
+        "startLine": 1,
+        "startChar": 1,
+        "endLine": 13,
+        "endChar": 23
+      },
+      "revId": "2ae3de9852fe3916225760af53bebb6366851831",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
