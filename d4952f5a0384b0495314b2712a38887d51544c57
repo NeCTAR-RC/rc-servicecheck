@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a245df4_66816b4a",
+        "filename": "rc-servicecheck/nectar_monitor_rest/settings.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-07-15T04:42:21Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "d4952f5a0384b0495314b2712a38887d51544c57",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a245df4_867c5f74",
+        "filename": "tox.ini",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2015-07-15T04:42:21Z",
+      "side": 1,
+      "message": "tabs",
+      "revId": "d4952f5a0384b0495314b2712a38887d51544c57",
+      "serverId": "f182a8af-62ca-4ceb-ab81-14f8fec9c6c5",
+      "unresolved": false
+    }
+  ]
+}
